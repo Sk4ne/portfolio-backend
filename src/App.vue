@@ -77,7 +77,7 @@
               ves más competente en la industria Tech.
             </p>
             <div class="text-center">
-              <a href="https://drive.google.com/file/d/1grDRlGJlmWOiyJAVp3enAyw8PuoJgfVH/view?usp=share_link" target="_blank" class="mt-5 btn btn-secondary" download>Descargar CV</a>
+              <a href="https://drive.google.com/file/d/1K3xNLAsWEsfXbeLnsc_Likr3l4uhvOvq/view?usp=share_link" target="_blank" class="mt-5 btn btn-secondary" download>Descargar CV</a>
             </div>
           </div>
           <div class="col-md-3 mt-4">
