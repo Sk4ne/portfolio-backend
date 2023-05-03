@@ -77,7 +77,8 @@
               ves más competente en la industria Tech.
             </p>
             <div class="text-center">
-              <a href="" class="mt-5 btn btn-secondary"  download target="_blank">Descargar CV</a>
+              <a href="./cvDevNeider.pdf" class="mt-5 btn btn-secondary" download>Descargar CV</a>
+              <a href="./cvDevNeider.pdf" download>Descargar PDF</a>
             </div>
           </div>
           <div class="col-md-3">
@@ -422,7 +423,7 @@ export default {
   },
   data() {
     return {
-      img: 'https://res.cloudinary.com/dqhme1rod/image/upload/v1683045548/myimages/jhbhnemsfakijyy3rdwf.jpg'
+      img: 'https://res.cloudinary.com/dqhme1rod/image/upload/v1683045548/myimages/jhbhnemsfakijyy3rdwf.jpg',
     }
   }
 }
