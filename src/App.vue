@@ -38,7 +38,7 @@
     </header>
     <!-- <router-view /> -->
     <!--! home -->
-    <section id="home" class="mb-5 ">
+    <section id="home" class="mb-5 section-home">
       <div class='container'>
         <div class="row">
           <div class="col-md-12">
@@ -70,7 +70,8 @@
         <!--  -->
         <div class="row">
           <div class="col-md-8">
-            <p class="text-center mt-4 ">Mi nombre es Neider Lopez, soy <b>Desarrollador Backend</b> me apasiona
+            <p class="text-center mt-4 ">Mi nombre es Neider Lopez, soy <span class="text-success">Desarrollador Backend</span> me especializo en el 
+              <span class="text-success">stack mevn</span> me apasiona
               programar y desarrollar software que permita solucionar problemas del mundo real. Por eso estoy en constante
               aprendizaje para ser cada
               ves más competente en la industria Tech.
@@ -91,7 +92,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center" style="font-weight: 700;font-size:40px;">Habilidades</h1>
+            <h1 class="text-center" style="font-weight: 700;font-size:40px; color:white;">Habilidades</h1>
             <hr>
           </div>
         </div>
@@ -101,32 +102,32 @@
               <div class="card-body">
                 <h5 class="card-title text-center font-weight-bold ">Lenguajes & Data Bases</h5>
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683050243/myimages/gyaiiqbw9fxncv7rpxqq.png"
-                  class="mt-4 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
-                  data-placement="top" title="NodeJS">
+                  class="mt-4 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
+                  data-placement="top" title="NodeJS" >
                 <!-- <p>NodeJS</p> -->
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683050400/myimages/lnhgevdrvtoanqrpimlr.svg"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="TypeScript">
                 <!-- <p>TypeScript</p> -->
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1635634908/myimages/llqamf2vdurfuepslvdv.png"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="PHP">
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683050647/myimages/wzxkvu601grprayg3jhq.svg"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="Handlebars">
                 <!-- <p>Handlebars</p> -->
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683049217/myimages/c61fi8mtdfabsbmvrvwj.png"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="HTML">
                 <!-- <p>HTML</p> -->
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683050161/myimages/ojmcsre803gu8ngxb3ng.png"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="CSS">
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683053925/myimages/rg8lvrwy5g2pujt7httm.svg"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="MongoDB">
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683054012/myimages/tieekghjfas4oli9kdtc.svg"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="MySQL">
 
                 <!-- <p>CSS</p> -->
@@ -138,17 +139,17 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title text-center font-weight-bold">Librerías & Frameworks</h5>
-                <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683053784/myimages/vyhpkgzw8b4bu2xhc2wy.svg"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683135815/myimages/mpyqrmzj5oltmkxo8axa.svg"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="ExpressJS">
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683052175/myimages/gubv4vly4tmpehf24vuf.svg"
-                  class="mt-4 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="VueJS">
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683052379/myimages/sfvrxy5xxerhnn7gk5gi.svg"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="BootStrap">
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683052491/myimages/dbyqzllytu4ztg9lu8s3.png"
-                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                  class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                   data-placement="top" title="Bootstrap-vue">
               </div>
             </div>
@@ -161,15 +162,15 @@
                 <div class="text-center">
                   <img
                     src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683054133/myimages/dv3teiuoxh5dlwqqlfnp.svg"
-                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                     data-placement="top" title="GIT">
                   <img
                     src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683054299/myimages/pegbkclovkwz3fkedymv.png"
-                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                     data-placement="top" title="Swagger">
                   <img
                     src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683054474/myimages/nboeucp4pwrf0zaow0fb.svg"
-                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                     data-placement="top" title="GitHub">
                 </div>
               </div>
@@ -191,11 +192,11 @@
                 <div class="text-center">
                   <img
                     src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683054811/myimages/j9ixpexl3wxkf7ucarjo.svg"
-                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                     data-placement="top" title="NestJS">
                   <img
                     src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683055312/myimages/vzr3ylwf4jidtqoxhbcr.svg"
-                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;" data-toggle="tooltip"
+                    class="mt-4 mx-2 card-img-top img-fluid" alt="" style="width: 15%;filter: grayscale(100%);" data-toggle="tooltip"
                     data-placement="top" title="Docker">
                 </div>
               </div>
@@ -304,7 +305,7 @@
               <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683061074/myimages/thx6libpe2yrx5pksxfb.png"
                 class="card-img-top img-fluid" alt="#">
               <div class="card-body">
-                <h5 class="card-title">Generador de encuestas</h5>
+                <h5 class="card-title font-weight-bold">Generador de encuestas</h5>
                 <p class="card-text">Con esta aplicación web puedes generar preguntas de forma dinamica por medio de
                   preguntas abiertas y de opción multiple con una respuesta.
                 </p>
@@ -352,8 +353,8 @@
               <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683065927/myimages/rfinvkw6zovhu3nvtnek.png"
                 class="card-img-top img-fluid" alt="#">
               <div class="card-body">
-                <h5 class="card-title">Go University</h5>
-                <p class="card-text">Esta es una ApiRest de una aplicación web progresiva para la divulgación de
+                <h5 class="card-title font-weight-bold">Go University</h5>
+                <p class="card-text ">Esta es una ApiRest de una aplicación web progresiva para la divulgación de
                   contenido institucional, académico y cultural en la Universidad de Córdoba
                 </p>
                 <div class="row">
@@ -395,9 +396,9 @@
             </p>
             <p class="text-center font-weight-bold">neider86@protonmail.com</p>
             <div class="text-center mt-5">
-              <a href="https://gitlab.com/Spekth/go_university" target="_blank">
+              <a href="https://linkedin.com/in/neider-lópez-12440a227" target="_blank">
                 <img src="https://res.cloudinary.com/dqhme1rod/image/upload/v1683066372/myimages/dhpootfgjb5g702mplsp.svg"
-                  data-toggle="tooltip" data-placement="top" title="LinkedIn" alt="" class="img-fluid" style="width:30px">
+                  data-toggle="tooltip" data-placement="top" title="LinkedIn" alt="" class="img-fluid" style="width:30px;filter:grayscale(100%)">
               </a>
             </div>
           </div>
@@ -446,6 +447,14 @@ export default {
 section[id] {
   scroll-margin-top: 75px;
 }
+.section-home,#aboutMe,#experience,#contact {
+  /* background-color:#100f10; */
+  color:white
+}
+#skill, #learning,#project {
+  /* background-color: #100f10; */
+  color:white
+}
 
 .active{
   border-bottom: 5px solid gray;
@@ -456,5 +465,9 @@ section[id] {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:#222
+}
+.card-title{
+  color:white
 }
 </style>
